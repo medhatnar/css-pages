@@ -1,0 +1,47 @@
+.card {
+    background: #000;
+    color: white;
+    width: 560px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.links {
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+.accent-color {
+    color: #FFE600;
+    font-weight: 700;
+}
+
+a:link, a:visited {
+    color:#FFE600
+}
+
+a:hover, a:focus {
+    color: firebrick;
+}
+
+a:active {
+    color: plum;
+}
+
+h1, p {
+   margin-top: 0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+strong {
+    background: yellow;
+    color: black;
+    padding-right: 100px;
+}

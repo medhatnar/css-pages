@@ -1,0 +1,7 @@
+css notes
+
+margin-top of parent and child will merge
+
+bigger margin will win if two are colliding
+
+backgruond color will always belong to parent

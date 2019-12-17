@@ -1,25 +1,24 @@
+body {
+	font-size: 16px;
+	font-family: 'Gill Sans';
+}
+
+
 h1, h2 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
 	font-size: 48px;
-	margin: 45px 0;
 	text-align: center;
 	color:  #2E7AD3;
+	margin: 45px 0;
 }
 
 h2 {
-	margin: 15px 0;
-	margin-left: 5px;
+	margin: 0 0 10px 0; 
 	font-size: 32px;
 	color: #104C90;
-}
-
-p {
-	font-size: 16px;
-	font-family: 'Gill Sans';
-	font-weight: 400;
 }
 
 a:link {
@@ -27,23 +26,19 @@ a:link {
 	font-weight: 600;
 }
 
-a:visited {
-	color: #104C90;
-}
-
 a:hover, a:focus {
 	color: firebrick;
 }
 
 .blog {
+	width: 450px;
+	padding: 25px;
 	margin: 0 auto;
-	width: 500px;
+	background-color: #F1F1F1;
 }
 
-.container {
-	background-color: #F1F1F1;
-	padding: 20px;
-	margin: 0 auto;
+.read-more {
+	margin: 0;
 }
 
 #hero {

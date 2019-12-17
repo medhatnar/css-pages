@@ -1,0 +1,51 @@
+h1, h2 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 48px;
+	margin: 45px 0;
+	text-align: center;
+	color:  #2E7AD3;
+}
+
+h2 {
+	margin: 15px 0;
+	margin-left: 5px;
+	font-size: 32px;
+	color: #104C90;
+}
+
+p {
+	font-size: 16px;
+	font-family: 'Gill Sans';
+	font-weight: 400;
+}
+
+a:link {
+	color: #FF8000;
+	font-weight: 600;
+}
+
+a:visited {
+	color: #104C90;
+}
+
+a:hover, a:focus {
+	color: firebrick;
+}
+
+.blog {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.container {
+	background-color: #F1F1F1;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#hero {
+	width:460px;
+}

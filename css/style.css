@@ -1,19 +1,74 @@
-h1, p {
-    margin-top: 0;
+body {
+    font-family: 'Lato', sans-serif;
+	border: 1px solid black;
+    margin: 0px auto;
+    width: 800px;
+    height: 800px;
+}
+
+h1,
+h2,
+p {
+	margin-top: 0;
 }
 
 h1 {
-    font-size: 24px;
+	font-size: 32px;
 }
 
 p {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 a {
-    color: #FFE600;
+	color: #ffe600;
+}
+
+header,
+section {
+	padding: 50px;
+}
+
+header {
+	background-color: #ffe600;
+	text-align: center;
+}
+
+.section-one {
+	background-color: #000;
+	color: white;
+}
+
+.not-btn {
+    color:black;
+}
+
+.btn {
+    display: inline-block;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+
+.btn-yellow {
+    background: #ffe600;
+    color: black;
+    font-size: 16px;
+}
+
+.btn-yellow:hover {
+    background: white;
+}
+
+.btn-black {
+	color: white;
+	background-color: black;
+}
+
+.btn-black:hover {
+    background-color: #ffe600;
+    color: black;
 }
 
 .accent-color {
-    color: #FFE600;
+	color: #ffe600;
 }

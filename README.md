@@ -1,4 +1,4 @@
-# Local edits at 0:39
+# Setting up the structure
 
 ## Supporting Scrimba
 

@@ -24,7 +24,7 @@ h1 {
 .subtitle {
     font-weight: 700;
     color: #1792d2;
-    font-size: 1rem;
+    font-size: .75rem;
     margin: 0;
 }
 
@@ -95,13 +95,8 @@ nav a:focus {
     nav ul {
         flex-direction: column;
     }
-
+    
     nav li {
         margin: .5em 0;
-    }
-
-    .current-page {
-        border:none;
-        color:  #1792d2;
     }
 }

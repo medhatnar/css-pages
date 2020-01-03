@@ -1,12 +1,29 @@
-/*  Fonts
------
-font-family: 'Lora', serif;
-font-family: 'Ubuntu', sans-serif;
-*/
-
 body {
 	margin: 0;
 	font-family: 'Ubuntu', sans-serif;
+}
+
+img {
+	width: 100%;
+}
+
+a:link {
+	color: #1792d2;
+}
+
+a:hover,
+a:focus {
+	color: #143774;
+}
+
+a:visited {
+    color: #1792d2;
+}
+
+footer {
+    text-align: center;
+    color:white;
+    background:#143774;
 }
 
 /* =================
@@ -21,11 +38,50 @@ h1 {
 	margin: 0;
 }
 
+h2 {
+	font-family: 'Lora', serif;
+	font-size: 1.5rem;
+	color: #143774;
+	margin: 0;
+}
+
+span {
+	font-weight: 700;
+}
+
+.article-body {
+	color: #707070;
+	font-size: 1.125rem;
+}
+
+.article-info {
+	color: #707070;
+	font-weight: 400;
+}
+
+.article-read-more {
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 700;
+}
+
 .subtitle {
 	font-weight: 700;
 	color: #1792d2;
 	font-size: 1rem;
 	margin: 0;
+}
+
+.widget-title {
+    font-family: 'Ubuntu', sans-serif;
+    margin: .5em 0;
+}
+
+.widget-recent-post-title {
+    margin: 0;
+	font-family: 'Lora', serif;
+	font-weight: 400;
+	color: #143774;
 }
 
 /* =================
@@ -34,7 +90,7 @@ Layout
 
 .container {
 	width: 90%;
-	max-width: 900px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -45,7 +101,8 @@ Layout
 
 header {
 	background: #f8f8f8;
-	padding: 2em 0;
+	padding: 4em 0;
+	margin-bottom: 3rem;
 }
 
 @media (max-width: 675px) {
@@ -58,9 +115,55 @@ header {
 	}
 }
 
-footer {
-    background: #143774;
-    color: #FFFFFF;
+.container-main {
+    display:flex;
+    justify-content: space-between;
+}
+
+/* main */
+
+main {
+    width:65%;
+}
+
+.main-border {
+    margin: 2em;
+    border: 1px solid #707070;
+}
+
+.article-recent {
+    width: 100%;
+    padding: 1em;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.article-recent-main {
+    width: 70%;
+    margin-left: 1em;
+}
+
+.article-recent-secondary {
+    width: 30%;
+}
+
+/* sidebar */
+
+.sidebar {
+    display:flex;
+    flex-direction: column;
+	width: 30%;
+}
+
+.sidebar-widget {
+    padding:0 1.5em;
+    margin-bottom: 2em;
+    border: 20px solid #EBEBEB;
+}
+
+.side-border {
+    margin: 2em;
+    border: 1px solid #707070;
 }
 
 /* navigation */
@@ -89,7 +192,7 @@ nav a:focus {
 }
 
 .current-page {
-	border-bottom: 1px solid #707070;
+	border-bottom: 2px solid #707070;
 }
 
 .current-page:hover {
@@ -105,3 +208,4 @@ nav a:focus {
 		margin: 0.5em 0;
 	}
 }
+
